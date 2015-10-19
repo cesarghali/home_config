@@ -279,6 +279,8 @@
 (add-hook 'go-mode-hook 'auto-fci-mode)
 (add-hook 'protobuf-mode-hook 'auto-fci-mode)
 (add-hook 'python-mode-hook 'auto-fci-mode)
+(add-hook 'latex-mode-hook 'auto-fci-mode)
+(add-hook 'tex-mode-hook 'auto-fci-mode)
 ;; Uncomment to apply auto-fci-mode whenever the window configuration changed
 ;; (add-hook 'window-configuration-change-hook 'auto-fci-mode)
 

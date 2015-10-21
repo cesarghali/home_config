@@ -291,3 +291,10 @@
 ;;(setq whitespace-style '(face lines-tail))
 
 ;;(add-hook 'prog-mode-hook 'whitespace-mode)
+
+
+;; Enable auto spell checker (flyspell)
+;; One problem with flyspell is that it doesn't work on existing text.
+(add-hook 'text-mode-hook 'flyspell-mode)
+(add-hook 'prog-mode-hook 'flyspell-prog-mode)
+(ac-flyspell-workaround)

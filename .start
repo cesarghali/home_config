@@ -3,4 +3,5 @@
 tint2 &
 sleep 2
 tilda -x 1920 -y 0 &
-dropbox start &
+sleep 1
+xscreensaver -nosplash &

@@ -2,6 +2,7 @@
 	default = simple
 [core]
 	editor = emacs -nw
+	autocrlf = true
 [color]
 	ui = true
 [http]

@@ -7,7 +7,6 @@ alias llh='ls -lh'
 alias rm='gvfs-trash'
 
 export PS1='\u@\h \[\e[1;38m\][\W]\[\e[m\]\[\e[0;33m\]$(__git_ps1 " (%s)")\[\e[m\] > '
-export GOROOT=/usr/lib/google-golang
 export GOPATH=$HOME/go
 export PATH=$GOPATH/bin:$PATH
 

@@ -8,7 +8,8 @@ alias rm='gvfs-trash'
 
 export PS1='\u@\h \[\e[1;38m\][\W]\[\e[m\]\[\e[0;33m\]$(__git_ps1 " (%s)")\[\e[m\] > '
 export GOPATH=$HOME/go
-export PATH=$GOPATH/bin:$PATH
+export PATH=$PATH:$GOPATH/bin
+export PATH=$PATH:/usr/local/go/bin
 
 # PKG_CONFIG_PATH and LD_LIBRARY_PATH are for ndnSIM
 export PKG_CONFIG_PATH=/usr/local/lib/pkgconfig

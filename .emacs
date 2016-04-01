@@ -282,6 +282,7 @@
 (add-hook 'latex-mode-hook 'auto-fci-mode)
 (add-hook 'tex-mode-hook 'auto-fci-mode)
 (add-hook 'c++-mode-hook 'auto-fci-mode)
+(add-hook 'text-mode-hook 'auto-fci-mode)
 ;; Uncomment to apply auto-fci-mode whenever the window configuration changed
 ;; (add-hook 'window-configuration-change-hook 'auto-fci-mode)
 

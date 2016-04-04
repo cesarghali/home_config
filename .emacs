@@ -265,6 +265,7 @@
 
 
 ;; Verfical line at column 80
+(add-to-list 'load-path "~/.emacs.d/fill-column-indicator.el/")
 (require 'fill-column-indicator)
 (setq-default fci-rule-column 80)
 (setq fci-handle-truncate-lines nil)

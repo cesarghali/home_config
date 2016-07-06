@@ -12,8 +12,8 @@ else
     read email
 
     echo "[user]" >> .gitconfig
-    echo "\tname = ${name}" >> .gitconfig
-    echo "\temail = ${email}" >> .gitconfig
+    echo $'\t'"name = ${name}" >> .gitconfig
+    echo $'\t'"email = ${email}" >> .gitconfig
 
     echo "Git configuration completed."
 fi

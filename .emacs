@@ -53,7 +53,7 @@
 (setq next-line-add-newlines nil)
 
 ;;p4
-;;(add-to-list 'load-path "~/.emacs.d/site-lisp")
+;;(add-to-list 'load-path "~/.emacs.d/lisp/site-lisp")
 ;;(load-library "p4")
 ;
 
@@ -66,7 +66,7 @@
   ;; use extended compound-text coding for X clipboard
   (set-selection-coding-system 'compound-text-with-extensions))
 
-(add-to-list 'load-path "~/.emacs.d/site-lisp/ruby")
+(add-to-list 'load-path "~/.emacs.d/lisp/site-lisp/ruby")
 
 (autoload 'ruby-mode "ruby-mode"
      "Mode for editing ruby source files")
@@ -185,7 +185,7 @@
 ;;; packages in your .emacs.
 (when
     (load
-     (expand-file-name "~/.emacs.d/elpa/package.el"))
+     (expand-file-name "~/.emacs.d/lisp/elpa/package.el"))
   (package-initialize))
 
 ;; rvm
@@ -209,21 +209,21 @@
   ;; If there is more than one, they won't work right.
  )
 
-;(add-to-list 'load-path "~/.emacs.d/vendor/coffee-mode")
+;(add-to-list 'load-path "~/.emacs.d/lisp/vendor/coffee-mode")
 ;(require 'coffee-mode)
 
 ; Used for dvi access
 ;(server-start)
 
 ;; Used for latex autocomplete functionality
-(add-to-list 'load-path "~/.emacs.d/")
+(add-to-list 'load-path "~/.emacs.d/lisp")
 (require 'auto-complete-config)
-(add-to-list 'ac-dictionary-directories "~/.emacs.d/ac-dict")
+(add-to-list 'ac-dictionary-directories "~/.emacs.d/lisp/ac-dict")
 (ac-config-default)
 
 
 (require 'auto-complete-latex)
-(setq ac-l-dict-directory "~/.emacs.d/ac-l-dict/")
+(setq ac-l-dict-directory "~/.emacs.d/lisp/ac-l-dict/")
 (add-to-list 'ac-modes 'LaTeX-mode)
 (add-to-list 'ac-modes 'tex-mode)
 (add-to-list 'ac-modes 'latex-mode) ; important one
@@ -257,10 +257,10 @@
     
 (add-hook 'find-file-hook 'find-file-sudo)
 
-(add-to-list 'load-path "~/.emacs.d/go-mode.el/")
+(add-to-list 'load-path "~/.emacs.d/lisp/go-mode.el/")
 (require 'go-mode-load)
 
-(add-to-list 'load-path "~/.emacs.d/protobuf-mode.el/")
+(add-to-list 'load-path "~/.emacs.d/lisp/protobuf-mode.el/")
 (require 'protobuf-mode-load)
 
 

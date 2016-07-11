@@ -27,7 +27,7 @@ else
     echo $'\n' >> .bashrc
     echo "# Execute .bash_profile if it exists." >> .bashrc
     echo "if [ -f ~/.bash_profile ]; then" >> .bashrc
-    echo "    ~/.bash_profile" >> .bashrc
+    echo "    . ~/.bash_profile" >> .bashrc
     echo "fi" >> .bashrc
 
     echo ".bash_profile auto-execution is enabled."

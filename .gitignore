@@ -74,3 +74,4 @@ eclipse-workspace/
 examples.desktop
 repo/
 .emacs.d/ac-comphist.dat
+.emacs.d/lisp/tramp

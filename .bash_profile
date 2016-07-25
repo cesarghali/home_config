@@ -5,6 +5,7 @@ alias ll='ls -l'
 alias lla='ls -la'
 alias llh='ls -lh'
 alias rm='gvfs-trash'
+alias brm='/bin/rm'
 
 export PS1='\u@\h \[\e[1;38m\][\W]\[\e[m\]\[\e[0;33m\]$(__git_ps1 " (%s)")\[\e[m\] > '
 export GOPATH=$HOME/go

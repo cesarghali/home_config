@@ -270,7 +270,7 @@
 (setq fci-handle-truncate-lines nil)
 (define-globalized-minor-mode global-fci-mode fci-mode (lambda () (fci-mode 1)))
 ;; Uncomment to enable by default
-;; (global-fci-mode 1)
+(global-fci-mode 1)
 (defun auto-fci-mode (&optional unused)
   (if (> (window-width) fci-rule-column)
       (fci-mode 1)
